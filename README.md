@@ -6,16 +6,16 @@ This is my first development API test written in Js using supertest, mocha, chai
 1. Node (Latest Version).
 2. npm(Latest Version).
 ## RUN THE TEST
-run the test
-   '''sh
+for run the test you should following this command
+   ```sh
    npm run test
-   '''
+   ```
+for generating report you should following this command
+```sh
+npm run report
+```
 ## ROADMAP
-This framework will covered
+This framework will covered 
 - [ ] GET request
-- [ ] POST request
-- [ ] PUT request
-- [ ] DELETE request
-Will updated soon !!!
 ## CONTACT
 Linkedin : (https://www.linkedin.com/in/riyan-pramudhito-7929801a1/)
