@@ -1,0 +1,20 @@
+{
+  "name": "apitest-supertestjs",
+  "version": "1.0.0",
+  "description": "api test framework using supertest written in javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*.spec.js && mocha --reporter json > reports/test-results.json",
+    "report": "mocha --reporter mochawesome"
+  },
+  "author": "Riyan Pramudhito",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "mochawesome": "^7.1.3"
+  }
+}
